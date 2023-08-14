@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap');
+.page{
+    
+    /* margin-top: 4rem; */
+    position: relative;
+    color:  white;
+    color: black;
+
+     background-image: url(../images/svgs/group-video-animate.svg);
+    background-repeat: no-repeat; 
+    background-position: right;
+    
+    /* background-size: cover; */
+
+    /* height: calc(100vh - 9vh); */
+   height: 92vh;
+    width: 100%;
+    
+}
+
+.details{
+    height: 100%;
+}
+
+.about-site{
+    height: 92vh;
+}
+
+.about-app{
+
+    width: 45vw;
+    display: flex;
+    margin-left: 10rem;
+    flex-direction: column;
+    align-items: flex-end;
+    height: inherit;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.home-label{
+    font-family: 'Dancing Script', cursive;
+    /* font-weight: lighter; */
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0C086A;
+    
+}
+
+.explanation{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.btn-box{
+    display: flex;
+    margin-top: 20px;
+   gap: 4rem;
+
+
+}
+
+.btn-box button{
+    padding: 5px;
+ 
+    font-size: 1.1rem;
+    background-color: #0C086A;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    gap: 2px;
+    width: max-content;
+}
+
+.btn-box button:hover{
+    background-color: #00B9E1;
+    color: var(--background);
+    border-color: white;
+}
+
+/*  tools */
+.tools-view{
+    height: 110vh;
+    background-color: black;
+    
+}
+
+.mlTools{
+    padding-top: 8%;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      /* width: inherit; */
+      gap: 5rem;
+}
+.box{
+
+    display: flex;
+    justify-content: center;
+    height: fit-content ;
+    width: 24%;
+    /* width: auto; */
+    margin: 5px;
+    color: var(--border);
+    flex-direction: column;
+    cursor: pointer;
+}
+.box img{
+    border:1px solid var(--background);
+    padding: 5px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px var(--border);
+}
+
+.tool-Name{
+    font-size: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+hr{
+    color: var(--border);
+    margin: 0%;
+}
+.hidden{
+    display: none;
+}
+
+/* footer ---------------------------------- */
+
+.footer{
+   
+    background-color: white;
+}
+
+
+
+/* responsive------------------- */
+
+@media screen and (max-width:1300px) {
+    .page{
+     background-size: cover;
+     backdrop-filter: blur(6px);
+     font-weight: 300;
+ 
+     background-color: rgba(0, 0, 0, 0.4);
+    }
+    .home-label{
+     font-size: 4em;
+    }
+    .mb-3{
+     width: 70%;
+    }
+ 
+    .about-app{
+    top: 10%;
+     margin-left: 10vw;
+    }
+    
+    .mlTools{
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .tools-view{
+        height: fit-content;
+        width: 100vw;
+    }
+    .box{
+        padding: 0px 29%;
+        width: 50%;
+       
+    }
+ }
+ 
+ @media screen and (max-width:800px) {
+     .page{
+         height: 60vh;
+         width: auto;
+        }
+        .about-site
+        {
+            height:inherit;
+        }
+        .home-label{
+            padding-top: 10%;
+         font-size: 2.6rem;
+        }
+ 
+        .explanation{
+         font-size: 1.6rem;
+         
+        }
+        .mlTools{
+         margin-top: 10px;
+        }
+        .btn-box button{
+         font-size: 1rem;
+         padding: 2px;
+        }
+ }
+ 
+ /*------------------===========------------=========--------*/

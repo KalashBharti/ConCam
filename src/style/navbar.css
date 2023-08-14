@@ -1,0 +1,49 @@
+.tool-bar {
+  position: relative;
+  /* z-index: 1; */
+top: 0;
+  color: white;
+  background-color: hsla(0, 0%, 0%, 0.862);
+
+  backdrop-filter: blur(7px);
+  display: flex;
+  
+  font-size: 1.2em;
+  align-items: center;
+  gap: 1rem;
+  height: 9vh;
+  /* border-bottom: solid 0.5px rgba(255, 255, 255,0.5); */
+  border-bottom: 1px solid  var(--border);
+  font-weight: 300;
+  width: 100%;
+}
+
+.tool-right {
+
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 0.7rem;
+  /* margin-right: 2rem; */
+  
+}
+
+.hamburger {
+
+  margin-left: 10px;
+
+}
+
+.nav-right-element {
+  margin-right: 2rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.nav-right-element a {
+  color: white;
+  text-decoration: none;
+
+}

@@ -1,0 +1,63 @@
+/* *{
+    border: 2px solid red;
+} */
+
+.conn_desc{
+    width :100%;
+    z-index: 1;
+    text-align: end;
+}
+.success{
+    color: green;
+}
+.error{
+    color: red;
+    font-weight: bolder;
+}
+.stream{
+    position: relative;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(0, 0, 0);
+    width: 68rem;
+    height: 35rem;
+}
+.other-stream{
+    /* position: absolute; */
+    width: inherit;
+    margin: 1rem;
+    background-color: rgb(32, 32, 32);
+}
+
+.my-stream{
+    position: absolute;
+    width: 15rem;
+    height: 10rem;
+    margin: 1rem;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(63, 63, 63);
+}
+.stream-controls{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    align-self: self-end;
+    /* justify-self: center; */
+    width: 100%;
+}
+.controller{
+    display: flex;
+    /* justify-content: flex-end; */
+    /* flex-direction: row; */
+    padding: 1.5rem;
+    gap: 3rem;
+    align-items: center;
+    width: fit-content;
+    height: 4.3rem;
+     margin: 0.5rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3rem;
+}

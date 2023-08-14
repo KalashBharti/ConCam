@@ -1,0 +1,79 @@
+.contactUs{
+    position: relative;
+    /* padding-top: 20vh; */
+   
+    display: flex;
+    height:inherit;
+    /* margin-top: 5%; */
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    min-width: 40vw;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+.svg{
+    max-height: 500px;
+}
+
+.submit{ 
+    z-index: 2;
+    position: absolute;
+display: flex;
+background-color: rgba(255, 255, 255, 0.7);
+   backdrop-filter: blur(4px);
+   box-shadow: 6px 4px 8px 5px rgb(255, 255, 255);
+    width: 50%;
+
+}
+.submit img{
+    height: 300px;
+}
+.submit label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.backdrop-contactus{
+    position:absolute;
+    height:100%;
+    background:rgba(0, 0, 0, 0.5);
+    width:100%;
+    
+}
+
+.none{
+    display: none;
+}
+
+/* feedback -- */
+
+.feedback{
+    padding-top: 8%;
+}
+
+
+/* Contribute */
+.earth-img{
+    background: url(../icons/earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .contactUs{
+        flex-direction: column;
+    }
+    .form-container{
+        width: 90vw;
+    }
+}
